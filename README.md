@@ -4,7 +4,10 @@ The main goal of the project is to Analyze the data from various data sources an
 
 Tech stack used : 1.HDFS(Hadoop File System) 2.Spark
 
-Architecture: image
+Architecture: 
+
+![image](https://user-images.githubusercontent.com/46803044/223776483-1a596b50-98b4-4a2a-a5bd-cd4144b5b6ed.png)
+
 
 Detailed Explanation: For this project there are 3 data sources named as ratings.csv,users.csv,movies.csv. In the ratings.csv there are 4 columns userid , movieid , rating, timestamp. The userid gives the detail about the user,the movieid gives the information of the movie to which user gave rating. The rating will be in between 1 to 5. In the users.csv we have 4 columns userid,gender,occupation,zip-code.The userid gives information about the user.the gender gives information regarding the gender of the user and the occupation gives the info regarding occupation of the user and zipcode gives the information about the zipcode of the user. In the movies.csv we have 3 columns. we have information regarding movieid,title genre.the moviid gives the id of the movie,the title represents the title for the movieand genre gives the information regarding to which genre it belongs to this columnis again delimted by ‘|’.it has various values in that column like action, Thriller etc.
 
